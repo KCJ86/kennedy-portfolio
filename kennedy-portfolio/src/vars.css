@@ -1,0 +1,17 @@
+
+
+/** Contains the overall variables in terms of themes of color scheme and design */ 
+
+
+:root{
+    /* Colors */ 
+    --color-text: #f2f3f4;
+    --color-primary: #6cABB7;
+    --color-secondary: #306E7B;
+    --color-dark: #1D282E;
+    --color-bg: #B1B7BA;
+
+    /* Fonts */
+    --font-robot: "Roboto";
+
+}
