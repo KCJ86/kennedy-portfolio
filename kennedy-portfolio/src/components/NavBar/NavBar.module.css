@@ -1,0 +1,98 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;
+  z-index: 2;
+  margin: 0 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-text);
+  font-family: var(--font-quattrocento);
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 42px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-text);
+  text-decoration: none;
+  font-family: var(--font-quattrocento);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+    color: var(--color-text); /* Button text color */
+    background-color: none; /* Button background */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: var(--color-dark); /* Darker background for menu */
+    padding: 24px 25px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuItems a {
+    text-decoration: none;
+    color: var(--color-text); /* Link text color */
+    font-family: var(--font-fanwood); /* Using your selected font */
+    font-size: 24px;
+  }
+
+  .menuItems a:hover {
+    color: var(--color-dark); /* Hover effect color */
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}

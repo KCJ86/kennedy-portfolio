@@ -1,17 +1,16 @@
+/** Contains the overall variables in terms of themes of color scheme and design */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Quattrocento:wght@400;700&family=Fanwood+Text:wght@400;700&display=swap");
 
+:root {
+  /* Colors */
+  --color-text: #f2f3f4;
+  --color-primary: #626353;
+  --color-secondary: #1d282e;
+  --color-dark: #272727;
+  --color-bg: #4a4b4c;
 
-/** Contains the overall variables in terms of themes of color scheme and design */ 
-
-
-:root{
-    /* Colors */ 
-    --color-text: #f2f3f4;
-    --color-primary: #6cABB7;
-    --color-secondary: #306E7B;
-    --color-dark: #1D282E;
-    --color-bg: #B1B7BA;
-
-    /* Fonts */
-    --font-robot: "Roboto";
-
+  /* Fonts */
+  --font-roboto: "Roboto";
+  --font-quattrocento: "Quattrocento";
+  --font-fanwood: "Fanwood Text";
 }
