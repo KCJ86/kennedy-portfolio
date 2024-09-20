@@ -32,6 +32,10 @@
   list-style: none;
 }
 
+.resume {
+  cursor: pointer;
+}
+
 .menuItems a {
   font-size: 25px;
   color: var(--color-text);
