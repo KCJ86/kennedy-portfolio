@@ -8,20 +8,21 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Kennedy!</h1>
         <p className={styles.description}>
-          I am a Full stack dev with a passion for coding and innovation! With
-          about 2 years of experience and recently graduated I am excited to be
-          able to connect and get to know eachother!
+          I'm a driven full-stack developer fueled by a passion for coding and
+          innovation. With 2 years of hands-on experience and a recent degree in
+          Computer Science, I'm eager to connect, collaborate, and create
+          impactful solutions together!
         </p>
+
         <a
           href="mailto:kcastillonjimenez@sandiego.edu"
           className={styles.contactBtn}
         >
-          {" "}
           Contact Me
         </a>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/aboutme2.png")}
         alt="Imageofme"
         className={styles.heroImg}
       />
