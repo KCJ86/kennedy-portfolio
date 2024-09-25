@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./App.module.css";
-import { Navbar } from "./components/navbar/navbar";
+import { Navbar } from "./components/NavBar/NavBar";
 import { Hero } from "./components/Hero/Hero";
 import { About } from "./components/About/About";
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Contact />
       </div>
     </>
   );

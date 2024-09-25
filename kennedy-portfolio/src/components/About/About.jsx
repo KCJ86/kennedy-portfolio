@@ -39,15 +39,14 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Mobile-app Development</h3>
               <p>
-                {" "}
                 Building intuitive, high-performance iOS applications from
-                concept to launch.{" "}
+                concept to launch.
               </p>
             </div>
           </li>
         </ul>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("about/aboutimage2.png")}
           alt="aboutmeimage"
           className={styles.aboutImage}
         />

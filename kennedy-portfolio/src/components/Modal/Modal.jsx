@@ -23,7 +23,7 @@ export const Modal = ({ isOpen, onClose }) => {
             download
             className={styles.downloadbtn}
           >
-            Download Resume
+            Download
           </a>
         </div>
       </div>

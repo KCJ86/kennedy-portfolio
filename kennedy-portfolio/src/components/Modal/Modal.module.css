@@ -2,14 +2,14 @@
 
 /* Modal Styles */
 .modal {
-  display: block;
+  display: relative;
   position: fixed;
   z-index: 5;
   left: 0;
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--color-dark);
   overflow: auto;
 }
 
@@ -17,9 +17,9 @@
   background-color: var(--color-bg);
   margin: 10% auto;
   padding: 20px;
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--color-dark);
   width: 80%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /* Close Button */
@@ -45,9 +45,14 @@
   font-family: var(--font-fanwood);
   border-radius: 5px;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  box-shadow: 0 0 4px 0 rgba(39, 39, 39, 0.25);
+
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.download-btn:hover {
-  background-color: var(--color-secondary);
+.downloadbtn:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6),
+    0 0 30px rgba(255, 255, 255, 0.4);
 }
