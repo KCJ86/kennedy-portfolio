@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 import { Modal } from "../Modal/Modal";
+import { motion } from "framer-motion";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +14,15 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className={styles.navbar}>
+      <motion.nav
+        initial={{ opacity: 0 }}
+        whileInView={{
+          opacity: 1,
+          transition: { delay: 0.2, duration: 0.5 },
+        }}
+        viewport={{ once: false, amount: 0.5 }}
+        className={styles.navbar}
+      >
         <div className={styles.menu}>
           <img
             className={styles.menuBtn}
@@ -52,7 +61,7 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-      </nav>
+      </motion.nav>
 
       <Modal isOpen={isModalOpen} onClose={closeModal} />
     </>
