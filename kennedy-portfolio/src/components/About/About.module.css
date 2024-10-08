@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-color: var(--color-dark);
+  background-color: var(--color-bg);
   border-radius: 5px;
   padding: 73px;
   margin-top: 129px;
@@ -13,8 +13,9 @@
 
 .title {
   color: var(--color-text);
+  padding-bottom: 30px;
   font-family: var(--font-quattrocento);
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;

@@ -17,7 +17,7 @@ export const Hero = () => {
           viewport={{ once: false, amount: 0.3 }}
           className={styles.title}
         >
-          <Typewriter text="Hello, I'm Kennedy!" delay={150} />
+          <Typewriter text="Hello, I'm Kennedy!" delay={100} />
         </motion.h1>
         <motion.div
           initial={{ opacity: 0 }}
