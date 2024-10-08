@@ -2,6 +2,7 @@ import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 import { motion } from "framer-motion";
+import { Typewriter } from "../Typewriter/Typewriter";
 
 export const Hero = () => {
   return (
@@ -16,7 +17,7 @@ export const Hero = () => {
           viewport={{ once: false, amount: 0.3 }}
           className={styles.title}
         >
-          Hello, I'm Kennedy!
+          <Typewriter text="Hello, I'm Kennedy!" delay={150} />
         </motion.h1>
         <motion.div
           initial={{ opacity: 0 }}
