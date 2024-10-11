@@ -8,9 +8,7 @@ export const Contact = () => {
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h1 className={styles.title}>Contact Me</h1>
-        <p>
-          Reach out to me in the following so we can work or even just chat!!!
-        </p>
+        <p>Reach out to me in the following...</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>

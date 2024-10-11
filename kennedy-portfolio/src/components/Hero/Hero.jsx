@@ -51,7 +51,7 @@ export const Hero = () => {
           transition: { delay: 0.2, duration: 0.3 },
         }}
         viewport={{ once: false, amount: 0.1 }}
-        src={getImageUrl("hero/aboutme2.png")}
+        src={getImageUrl("hero/aboutme3.png")}
         alt="Imageofme"
         className={styles.heroImg}
       />

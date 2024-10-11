@@ -28,10 +28,6 @@ export const About = () => {
             viewport={{ once: false, amount: 0.5 }}
             className={styles.aboutItem}
           >
-            {/* <img
-              src={getImageUrl("about/frontendtag.png")}
-              alt="frontend icon"
-            /> */}
             <div className={styles.aboutItemText}>
               <h3>Front-End Development</h3>
               <p>
@@ -49,7 +45,6 @@ export const About = () => {
             viewport={{ once: false, amount: 0.5 }}
             className={styles.aboutItem}
           >
-            {/* <img src={getImageUrl("about/backendtag.png")} alt="backend icon" /> */}
             <div className={styles.aboutItemText}>
               <h3>Back-End Development</h3>
               <p>
@@ -67,12 +62,8 @@ export const About = () => {
             viewport={{ once: false, amount: 0.5 }}
             className={styles.aboutItem}
           >
-            {/* <img
-              src={getImageUrl("about/mobileapptag.png")}
-              alt="mobileapp icon"
-            /> */}
             <div className={styles.aboutItemText}>
-              <h3>Mobile-app Development</h3>
+              <h3>Mobile App Development</h3>
               <p>
                 Building intuitive, high-performance iOS applications from
                 concept to launch.

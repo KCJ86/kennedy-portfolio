@@ -64,7 +64,7 @@ export const Experience = () => {
             className={styles.experienceItem}
           >
             <div className={styles.experienceItemText}>
-              <h3>Software Developer Intern</h3>
+              <h3>Software Developer</h3>
               <ul className={styles.bulletPoints}>
                 <li>
                   Worked with a senior developer, reducing user-reported issues
