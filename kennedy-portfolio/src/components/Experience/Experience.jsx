@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styles from "./Experience.module.css";
+import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
   return (
@@ -45,6 +46,11 @@ export const Experience = () => {
                 </li>
               </ul>
             </div>
+            <img
+              src={getImageUrl("experience/diegorivera2.png")}
+              alt="full stack"
+              className={styles.experienceImage}
+            />
           </motion.li>
 
           <motion.li
@@ -75,6 +81,12 @@ export const Experience = () => {
                 </li>
               </ul>
             </div>
+
+            <img
+              src={getImageUrl("experience/diegorivera1.png")}
+              alt="Software Developer Intern"
+              className={styles.experienceImage}
+            />
           </motion.li>
 
           <motion.li
@@ -104,6 +116,11 @@ export const Experience = () => {
                 </li>
               </ul>
             </div>
+            <img
+              src={getImageUrl("experience/diegorivera3.png")}
+              alt="acm"
+              className={styles.experienceImage}
+            />
           </motion.li>
         </ul>
       </div>

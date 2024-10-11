@@ -3,7 +3,6 @@
 .container {
   position: relative;
   background-color: var(--color-bg);
-  border-radius: 5px;
   padding: 73px;
   margin-top: 129px;
   z-index: 1;
@@ -15,9 +14,9 @@
   color: var(--color-text);
   padding-bottom: 30px;
   font-family: var(--font-quattrocento);
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -28,7 +27,7 @@
 }
 
 .aboutImage {
-  width: 35%;
+  width: 30%;
 }
 
 .aboutItems {
@@ -44,7 +43,7 @@
 
 .aboutItem {
   display: flex;
-  font-family: var(--font-fanwood);
+  font-family: var(--font-space);
   flex-direction: row;
   align-items: center;
   border-radius: 20px;
@@ -55,15 +54,17 @@
   transition: box-shadow 0.4s ease;
 }
 
-.aboutItem:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6),
-    0 0 30px rgba(255, 255, 255, 0.4);
+.aboutItem:hover h3 {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.4);
 }
 
 .aboutItem h3 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 900;
+  letter-spacing: 2px;
   font-family: var(--font-quattrocento);
+  transition: text-shadow 0.4s ease-in-out;
 }
 
 .aboutItem p {

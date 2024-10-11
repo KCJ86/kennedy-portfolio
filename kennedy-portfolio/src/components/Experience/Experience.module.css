@@ -14,9 +14,9 @@
 .title {
   color: var(--color-text);
   font-family: var(--font-quattrocento);
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 2px;
   text-transform: uppercase;
   padding-bottom: 30px;
   text-align: right;
@@ -40,29 +40,40 @@
   border-radius: 20px;
   background-color: var(--color-bg);
   padding: 25px;
-  transition: box-shadow 0.4s ease;
 }
 
-.experienceItem:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6),
-    0 0 30px rgba(255, 255, 255, 0.4);
+.experienceItemText {
+  flex: 1;
 }
 
+.experienceImage {
+  width: 150px;
+  height: auto;
+  margin-left: 40px;
+}
+.experienceItem:hover h3 {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.4);
+}
 .experienceItemText h3 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
   font-family: var(--font-quattrocento);
   color: var(--color-text);
   margin-bottom: 15px;
+  transition: text-shadow 0.4s ease-in-out;
 }
 
 .bulletPoints {
   list-style: disc;
   margin-left: 20px;
   color: var(--color-text);
-  font-family: var(--font-fanwood);
+  font-family: var(--font-space);
   font-size: 20px;
+  letter-spacing: 1px;
   line-height: 1.8;
+  font-weight: 300;
 }
 
 .bulletPoints li {

@@ -28,10 +28,10 @@ export const About = () => {
             viewport={{ once: false, amount: 0.5 }}
             className={styles.aboutItem}
           >
-            <img
+            {/* <img
               src={getImageUrl("about/frontendtag.png")}
               alt="frontend icon"
-            />
+            /> */}
             <div className={styles.aboutItemText}>
               <h3>Front-End Development</h3>
               <p>
@@ -49,7 +49,7 @@ export const About = () => {
             viewport={{ once: false, amount: 0.5 }}
             className={styles.aboutItem}
           >
-            <img src={getImageUrl("about/backendtag.png")} alt="backend icon" />
+            {/* <img src={getImageUrl("about/backendtag.png")} alt="backend icon" /> */}
             <div className={styles.aboutItemText}>
               <h3>Back-End Development</h3>
               <p>
@@ -67,10 +67,10 @@ export const About = () => {
             viewport={{ once: false, amount: 0.5 }}
             className={styles.aboutItem}
           >
-            <img
+            {/* <img
               src={getImageUrl("about/mobileapptag.png")}
               alt="mobileapp icon"
-            />
+            /> */}
             <div className={styles.aboutItemText}>
               <h3>Mobile-app Development</h3>
               <p>
@@ -81,7 +81,7 @@ export const About = () => {
           </motion.li>
         </ul>
         <img
-          src={getImageUrl("about/aboutimage2.png")}
+          src={getImageUrl("about/aboutImage3.png")}
           alt="aboutmeimage"
           className={styles.aboutImage}
         />

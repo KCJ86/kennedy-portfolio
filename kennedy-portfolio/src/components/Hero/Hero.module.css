@@ -24,6 +24,7 @@
   font-size: 60px;
   font-weight: 900;
   margin-bottom: 33px;
+  letter-spacing: 2px;
   font-family: var(--font-quattrocento);
   background-clip: text;
 }
@@ -77,7 +78,7 @@
 .heroImg {
   width: 50%;
   z-index: 1;
-
+  border-radius: 10px;
   animation-name: floating;
   animation-duration: 4s;
   animation-iteration-count: infinite;
