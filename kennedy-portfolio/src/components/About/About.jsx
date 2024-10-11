@@ -18,6 +18,11 @@ export const About = () => {
         About me
       </motion.h2>
       <div className={styles.content}>
+        <img
+          src={getImageUrl("about/aboutImage3.png")}
+          alt="aboutmeimage"
+          className={styles.aboutImage}
+        />
         <ul className={styles.aboutItems}>
           <motion.li
             initial={{ opacity: 0 }}
@@ -71,11 +76,6 @@ export const About = () => {
             </div>
           </motion.li>
         </ul>
-        <img
-          src={getImageUrl("about/aboutImage3.png")}
-          alt="aboutmeimage"
-          className={styles.aboutImage}
-        />
       </div>
     </section>
   );
