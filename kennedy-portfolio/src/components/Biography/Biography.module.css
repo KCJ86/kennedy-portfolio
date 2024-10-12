@@ -40,7 +40,7 @@
 }
 
 .bioImg {
-  width: 35%;
+  width: 28%;
   height: auto;
   border-radius: 10px;
 }
@@ -52,11 +52,11 @@
   }
 
   .bioImg {
-    margin-top: 20px; /* Add spacing for mobile view */
+    margin-top: 20px;
   }
 
   .description {
-    width: 90%; /* Allow the description to take up more space on smaller screens */
+    width: 90%;
     text-align: left;
     margin-left: 0;
   }
