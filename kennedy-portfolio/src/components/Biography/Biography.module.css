@@ -62,4 +62,8 @@
     text-align: left;
     margin-left: 0;
   }
+  .title {
+    text-align: left;
+    font-size: 58px;
+  }
 }
