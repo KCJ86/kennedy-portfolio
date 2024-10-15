@@ -82,10 +82,6 @@
     flex-direction: column;
   }
 
-  .aboutImage {
-    display: none;
-  }
-
   .aboutItems {
     margin-top: 29px;
   }

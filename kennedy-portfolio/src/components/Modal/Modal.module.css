@@ -17,12 +17,11 @@
   background-color: var(--color-bg);
   margin: 10% auto;
   padding: 20px;
-  border: 1px solid var(--color-dark);
+  border: 1px solid var(--color-bg);
   width: 80%;
   border-radius: 5px;
 }
 
-/* Close Button */
 .close {
   color: var(--color-text);
   float: right;
@@ -35,7 +34,6 @@
   color: var(--color-primary);
 }
 
-/* Download Button   #5b5c54 */
 .downloadbtn {
   display: inline-block;
   background-color: var(--color-dark);
@@ -46,9 +44,9 @@
   border-radius: 5px;
   margin-top: 20px;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 800;
+  letter-spacing: 0.5px;
   box-shadow: 0 0 4px 0 rgba(39, 39, 39, 0.25);
-
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 

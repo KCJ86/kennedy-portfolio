@@ -66,8 +66,8 @@
   .menuBtn {
     display: block;
     cursor: pointer;
-    color: var(--color-text); /* Button text color */
-    background-color: none; /* Button background */
+    color: var(--color-text);
+    background-color: none;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -78,21 +78,23 @@
     flex-direction: column;
     align-items: center;
     gap: 13px;
-    border-radius: 10px;
-    background: var(--color-dark); /* Darker background for menu */
+    border-radius: 20px;
+    background: var(--color-dark);
     padding: 24px 25px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
 
   .menuItems a {
     text-decoration: none;
-    color: var(--color-text); /* Link text color */
-    font-family: var(--font-fanwood); /* Using your selected font */
+    color: var(--color-text);
+    font-family: var(--font-fanwood);
     font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 1px;
   }
 
   .menuItems a:hover {
-    color: var(--color-dark); /* Hover effect color */
+    color: var(--color-dark);
   }
 
   .menuOpen {

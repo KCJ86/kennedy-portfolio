@@ -9,7 +9,7 @@ export const Experience = () => {
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 0.3 } }}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.2 }}
         className={styles.title}
       >
         Experience
@@ -21,9 +21,9 @@ export const Experience = () => {
             whileInView={{
               opacity: 1,
               x: 0,
-              transition: { delay: 0.4, duration: 0.5 },
+              transition: { delay: 0.4, duration: 0.2 },
             }}
-            viewport={{ once: false, amount: 0.5 }}
+            viewport={{ once: false, amount: 0.2 }}
             className={styles.experienceItem}
           >
             <div className={styles.experienceItemText}>
@@ -60,7 +60,7 @@ export const Experience = () => {
               x: 0,
               transition: { delay: 0.6, duration: 0.5 },
             }}
-            viewport={{ once: false, amount: 0.5 }}
+            viewport={{ once: false, amount: 0.2 }}
             className={styles.experienceItem}
           >
             <div className={styles.experienceItemText}>
@@ -96,7 +96,7 @@ export const Experience = () => {
               x: 0,
               transition: { delay: 0.8, duration: 0.5 },
             }}
-            viewport={{ once: false, amount: 0.5 }}
+            viewport={{ once: false, amount: 0.2 }}
             className={styles.experienceItem}
           >
             <div className={styles.experienceItemText}>

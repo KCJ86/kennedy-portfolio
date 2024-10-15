@@ -9,7 +9,7 @@ export const Biography = () => {
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 0.3 } }}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.2 }}
         className={styles.title}
       >
         Biography
@@ -22,7 +22,7 @@ export const Biography = () => {
             x: 0,
             transition: { delay: 0.4, duration: 0.5 },
           }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.1 }}
           className={styles.description}
         >
           I hope you enjoyed the art featured on this website. Full credit goes
